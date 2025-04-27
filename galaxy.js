@@ -108,7 +108,7 @@ let starArrFix = (count) => {
 let drawBg = () => {
    bg(ctx2);
    glow(ctx2);
-   let fixedStars = starArrFix(200);
+   let fixedStars = starArrFix(500);
    for (let s of fixedStars) {
       drawStar(s.x, s.y, s.size, ctx2);
    }
